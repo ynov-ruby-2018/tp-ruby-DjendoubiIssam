@@ -1,5 +1,8 @@
 class HomeController < ApplicationController
-
+      # Pas besoin de s'authentifier ?!
+      
+      # 2 espaces pour l'indentation en Ruby SVP
+      
       def index
         @comment = Comment.all.order('create_at DESC')
       end
@@ -13,7 +16,7 @@ class HomeController < ApplicationController
 
       end
 
-
+      # Heuuu, il manque du monde, là :-/
 
 
 
